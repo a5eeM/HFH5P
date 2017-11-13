@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dog</title>
+    </head>
+    
+    <body>
+        <p id="soundsLike">
+            
+        </p>
+        
+        <script>
+            var walksLike = "duck";
+            var soundsLike = document.getElementById("soundsLike");
+            if (walksLike == "dog") {
+                soundsLike.innerHTML = "Woof! Woof!";
+            } else if (walksLike == "duck") {
+                soundsLike.innerHTML = "Quack, Quack";
+            } else {
+                soundsLike.innerHTML = "Crickets...";
+            }
+        </script>
+    </body>
+</html>
